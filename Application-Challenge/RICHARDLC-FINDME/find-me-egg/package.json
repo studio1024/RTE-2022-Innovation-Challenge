@@ -7,8 +7,21 @@
     "declarations": true
   },
   "dependencies": {
-    "egg": "^2",
-    "egg-scripts": "^2"
+   "await-stream-ready": "^1.0.1",
+  "cors": "^2.8.5",
+  "dayjs": "^1.10.4",
+  "egg": "^2.15.1",
+  "egg-cors": "^2.2.3",
+  "egg-jwt": "^3.1.7",
+  "egg-scripts": "^2.11.0",
+  "egg-sequelize": "^6.0.0",
+  "egg-swagger-doc": "^2.3.2",
+  "egg-validate": "^2.0.2",
+  "jwt": "^0.2.0",
+  "md5": "^2.3.0",
+  "moment": "^2.29.1",
+  "mysql2": "^2.3.3-rc.0",
+  "sequelize": "^6.9.0"
   },
   "devDependencies": {
     "autod": "^3",
@@ -17,7 +30,8 @@
     "egg-ci": "^2",
     "egg-mock": "^4",
     "eslint": "^8",
-    "eslint-config-egg": "^12"
+    "eslint-config-egg": "^12",
+      "sequelize-cli": "^6.3.0"
   },
   "engines": {
     "node": ">=16.0.0"
