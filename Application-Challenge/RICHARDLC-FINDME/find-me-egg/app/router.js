@@ -88,60 +88,60 @@ module.exports = app => {
   );
 
   // 医生
-  router.get(
-    '/timewalker/api/doctor/getCurUserInfo',
-    jwt,
-    controller.time.doctor.getCurUserInfo
-  );
-  router.post('/timewalker/api/doctor/login', controller.time.doctor.login);
-  router.post('/timewalker/api/doctor/page', controller.time.doctor.page);
-  router.post('/timewalker/api/doctor/create', controller.time.doctor.create);
-  router.post(
-    '/timewalker/api/doctor/changePsw',
-    jwt,
-    controller.time.doctor.changePsw
-  );
-  router.post(
-    '/timewalker/api/doctor/update',
-    jwt,
-    controller.time.doctor.update
-  );
-  router.post(
-    '/timewalker/api/doctor/delete',
-    jwt,
-    controller.time.doctor.delete
-  );
+  // router.get(
+  //   '/timewalker/api/doctor/getCurUserInfo',
+  //   jwt,
+  //   controller.time.doctor.getCurUserInfo
+  // );
+  // router.post('/timewalker/api/doctor/login', controller.time.doctor.login);
+  // router.post('/timewalker/api/doctor/page', controller.time.doctor.page);
+  // router.post('/timewalker/api/doctor/create', controller.time.doctor.create);
+  // router.post(
+  //   '/timewalker/api/doctor/changePsw',
+  //   jwt,
+  //   controller.time.doctor.changePsw
+  // );
+  // router.post(
+  //   '/timewalker/api/doctor/update',
+  //   jwt,
+  //   controller.time.doctor.update
+  // );
+  // router.post(
+  //   '/timewalker/api/doctor/delete',
+  //   jwt,
+  //   controller.time.doctor.delete
+  // );
 
   // 字典
-  router.post('/timewalker/api/dict/create', controller.time.dict.create);
-  router.post('/timewalker/api/dict/update', controller.time.dict.update);
-  router.get('/timewalker/api/dict/query', controller.time.dict.query);
-  router.post('/timewalker/api/dict/delete', controller.time.dict.delete);
+  // router.post('/timewalker/api/dict/create', controller.time.dict.create);
+  // router.post('/timewalker/api/dict/update', controller.time.dict.update);
+  // router.get('/timewalker/api/dict/query', controller.time.dict.query);
+  // router.post('/timewalker/api/dict/delete', controller.time.dict.delete);
 
   // 就诊事件
-  router.post(
-    '/timewalker/api/seeDoctor/create',
-    controller.time.seeDoctor.create
-  );
-  router.post(
-    '/timewalker/api/seeDoctor/update',
-    controller.time.seeDoctor.update
-  );
-  router.post('/timewalker/api/seeDoctor/page', controller.time.seeDoctor.page);
-  router.post(
-    '/timewalker/api/seeDoctor/delete',
-    controller.time.seeDoctor.delete
-  );
+  // router.post(
+  //   '/timewalker/api/seeDoctor/create',
+  //   controller.time.seeDoctor.create
+  // );
+  // router.post(
+  //   '/timewalker/api/seeDoctor/update',
+  //   controller.time.seeDoctor.update
+  // );
+  // router.post('/timewalker/api/seeDoctor/page', controller.time.seeDoctor.page);
+  // router.post(
+  //   '/timewalker/api/seeDoctor/delete',
+  //   controller.time.seeDoctor.delete
+  // );
 
   // 评论
-  router.post(
-    '/timewalker/api/comments/create',
-    controller.time.comments.create
-  );
-  router.post(
-    '/timewalker/api/comments/update',
-    controller.time.comments.update
-  );
-  router.post('/timewalker/api/comments/query', controller.time.comments.query);
+  // router.post(
+  //   '/timewalker/api/comments/create',
+  //   controller.time.comments.create
+  // );
+  // router.post(
+  //   '/timewalker/api/comments/update',
+  //   controller.time.comments.update
+  // );
+  // router.post('/timewalker/api/comments/query', controller.time.comments.query);
   // router.post('/timewalker/api/comments/delete',controller.time.comments.delete)
 };
